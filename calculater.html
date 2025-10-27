@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check data</title>
+    <link rel="stylesheet" href="calculater.css">
+    <script src="https://kit.fontawesome.com/80e3c71521.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="calSy">
+        <div class="check">
+            <div class="display">
+                    <input id="result" type="text">
+                    <input id="maininput" placeholder="0" type="text" readonly>
+            </div>
+                <div class="buttons">
+                <button class="operator" onclick="allclear()">AC</button>
+                <button class="operator" onclick="insertvalue('%')">%</button>
+                <button class="operator" onclick="insertvalue('/')">/</button>
+                <button class="operator" onclick="backspace()"><i class="fa-solid fa-delete-left"></i></button>
+                <button onclick="insertvalue('9')">9</button>
+                <button onclick="insertvalue('8')">8</button>
+                <button onclick="insertvalue('7')">7</button>
+                <button class="operator" onclick="insertvalue('*')">x</button>
+                <button onclick="insertvalue('4')">4</button>
+                <button onclick="insertvalue('5')">5</button>
+                <button onclick="insertvalue('6')">6</button>
+                <button class="operator" onclick="insertvalue('-')">-</button>
+                <button onclick="insertvalue('1')" >1</button>
+                <button onclick="insertvalue('2')">2</button>
+                <button onclick="insertvalue('3')">3</button>
+                <button class="operator" onclick="insertvalue('+')">+</button>
+                <button class="operator" onclick="historysign()"><i class="fa-solid fa-clock-rotate-left"></i></button>
+                <button onclick="insertvalue('0')">0</button>
+                <button onclick="insertvalue('.')">.</button>
+                <button class="operator" onclick="solve()">=</button>
+            </div>
+        </div>    
+        <div id="history" ></div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

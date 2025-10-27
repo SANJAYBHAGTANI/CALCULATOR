@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(26, 26, 26);
+    
+}
+.calSy{
+    border: none;
+    display: inline-block
+}
+.check{
+    width: 475px;
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid palevioletred
+}
+#history{
+    width: 230px;
+    margin: 10px;
+    /* height:620px; */
+    position: relative;
+}
+#maininput,#result{
+    width: 450px;
+    height: 80px;
+    font-weight: 700;
+    color: antiquewhite;
+    font-size: 50px;
+    padding: 10px 10px 0 0;
+    text-align: right;
+    margin: 5px 0 0 10px;
+    border-radius: 20px;
+    border: 1px solid palevioletred;
+}
+.buttons button{
+    height: 70px;
+    /* margin: 4px; */
+    background: orange;
+    margin:10px 4px 10px 8px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -7px -2px 12px rgba(239, 240, 237, 0.4);
+    width: 100px;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 50px;
+}
+button i{
+    font-size: 40px;
+    background: palevioletred;
+}
+#clearHistoryBtn {
+      background: orange;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 20px 0 0 30px ;
+      position: absolute;
+    }
+button:hover{
+    font-size: 52px;
+}
+i:hover{
+    font-size: 42px;
+    margin: 20px;
+}
+.buttons .operator{
+    background: palevioletred;
+}
+@media screen and (max-width: 768px){
+    .check{
+    width: 750px;
+    height: 900px;
+    margin: auto;
+}
+    #maininput,#result{
+    width: 735px;
+    height: 100px;
+    margin: 7px 15px 8px 6px;
+}
+    .buttons button{
+    height: 120px;
+    margin:12px 4px 0 10px;
+    width: 170px;
+}
+    #history{
+    width: 735px;
+    margin: auto;
+    height: 550px;
+    overflow: scroll;
+}
+    #clearHistoryBtn {
+      font-size: 30px;
+      margin-left: 250px;
+    }
+}
