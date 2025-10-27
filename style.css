@@ -73,28 +73,42 @@ button:active{
 button i:active{
     background: skyblue;
 }
-@media screen and (max-width: 768px){
-    .check{
-    width: 570px;
-    height: 700px;
-}
-     #maininput,#result{
-    width: 555px;
-    height: 100px;
-    margin: 7px 15px 8px 6px;
-}
-    .buttons button{
-    height: 80px;
-    margin:12px 4px 0 10px;
-    width: 125px;
-}
-    #history{
-    width: 735px;
-    height: 420px;
-    overflow: scroll;
-}
+@media screen and (max-width: 768px) {
+    .calSy {
+        width: 95%; 
+        margin: 10px auto;
+    }
+    .check, #history {
+        width: 100%; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #history {
+        height: 250px; 
+        overflow-y: auto;
+    }
+    #maininput, #result {
+        width: 95%; 
+        height: 80px;
+        margin: 7px auto;
+        font-size: 35px; 
+    }
+    .buttons button {
+        width: calc(25% - 12px);
+        height: 75px;
+        margin: 8px 4px 8px 8px;
+        font-size: 28px; 
+    }
+    button i {
+        font-size: 24px;
+    }
     #clearHistoryBtn {
-      font-size: 30px;
-      margin-left: 240px;
-    } 
-} 
+        font-size: 20px;
+        margin-left: 0; 
+        position: relative; 
+        display: block;
+        width: 90%; 
+        margin: 10px auto;
+    }
+}
+
