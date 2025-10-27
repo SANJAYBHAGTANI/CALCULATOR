@@ -88,13 +88,14 @@ button i:active{
         overflow-y: auto;
     }
     #maininput, #result {
-        width: 95%; 
+        width: 98%; 
         height: 80px;
         margin: 7px auto;
-        font-size: 35px; 
+        font-size: 35px;
+        margin-left: 5px; 
     }
     .buttons button {
-        width: calc(25% - 12px);
+        width: calc(25% - 15px);
         height: 75px;
         margin: 8px 4px 8px 8px;
         font-size: 28px; 
@@ -111,4 +112,5 @@ button i:active{
         margin: 10px auto;
     }
 }
+
 
