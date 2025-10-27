@@ -88,7 +88,7 @@ button i:active{
         overflow-y: auto;
     }
     #maininput, #result {
-        width: 98%; 
+        width: 97%; 
         height: 80px;
         margin: 7px auto;
         font-size: 35px;
@@ -112,6 +112,7 @@ button i:active{
         margin: 10px auto;
     }
 }
+
 
 
 
