@@ -84,7 +84,7 @@ button i:active{
         margin-right: 0;
     }
     #history {
-        height: 220px; 
+        height: 235px; 
         overflow-y: auto;
     }
     #maininput, #result {
@@ -112,6 +112,7 @@ button i:active{
         margin: 10px auto;
     }
 }
+
 
 
 
