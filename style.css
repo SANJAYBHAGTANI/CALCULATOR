@@ -75,7 +75,7 @@ button i:active{
 }
 @media screen and (max-width: 768px) {
     .calSy {
-        width: 100%; 
+        width: 95%; 
         margin: 10px auto;
     }
     .check, #history {
@@ -95,7 +95,7 @@ button i:active{
         margin-left: 5px; 
     }
     .buttons button {
-        width: 50px;
+        width: 55px;
         height: 75px;
         margin: 8px 4px 8px 8px;
         font-size: 28px; 
@@ -112,6 +112,7 @@ button i:active{
         margin: 10px auto;
     }
 }
+
 
 
 
