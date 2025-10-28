@@ -75,11 +75,11 @@ button i:active{
 }
 @media screen and (max-width: 768px) {
     .calSy {
-        width: 95%; 
+        width: 97%; 
         margin: 10px auto;
     }
     .check, #history {
-        width: 98%; 
+        width: 99%; 
         margin-left: 0;
         margin-right: 0;
     }
@@ -88,15 +88,15 @@ button i:active{
         overflow-y: auto;
     }
     #maininput, #result {
-        width: 97%; 
+        width: 98%; 
         height: 80px;
         margin: 7px auto;
         font-size: 35px;
         margin-left: 5px; 
     }
     .buttons button {
-        width: 55px;
-        height: 75px;
+        width: 70px;
+        height: 82px;
         margin: 8px 4px 8px 8px;
         font-size: 28px; 
     }
@@ -112,6 +112,7 @@ button i:active{
         margin: 10px auto;
     }
 }
+
 
 
 
