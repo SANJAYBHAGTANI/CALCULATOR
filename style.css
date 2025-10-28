@@ -95,9 +95,9 @@ button i:active{
         margin-left: 5px; 
     }
     .buttons button {
-        width: 84px;
+        width: 88px;
         height: 75px;
-        margin: 8px 3px 8px 7px;
+        margin: 4px 3px 4px 7px;
         font-size: 28px; 
     }
     button i {
@@ -112,6 +112,7 @@ button i:active{
         margin: 10px auto;
     }
 }
+
 
 
 
