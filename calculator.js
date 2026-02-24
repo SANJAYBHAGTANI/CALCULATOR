@@ -41,6 +41,7 @@ function toggleHistory(){
     }else{
         historySection.style.display = "block";
         calculatorSection.style.display = "none";
+        
     }
 }
 
@@ -49,6 +50,7 @@ function clearHistory(){
 }
 
 function toggleTheme(){
-    document.body.classList.toggle("light");
     document.body.classList.toggle("dark"); 
+    document.body.classList.toggle("light");
+
 }
