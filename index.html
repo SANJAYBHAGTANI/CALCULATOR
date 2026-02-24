@@ -6,14 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calculator.css">
 </head>
-<body class=<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Responsive Calculator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="calculator.css">
-</head>
 <body class="dark">
 
 <div class="calculator">
@@ -74,63 +66,3 @@
 <script src="calculator.js"></script>
 </body>
 </html>
-"dark">
-
-<div class="calculator">
-
-    <!-- TOP BAR -->
-    <div class="top-bar">
-        <button onclick="toggleTheme()">🌙 / ☀️</button>
-        <button onclick="toggleHistory()">📜 History</button>
-    </div>
-
-    <!-- HISTORY SECTION -->
-    <div class="history" id="historySection">
-        <div class="history-header">
-            <span>History</span>
-            <button onclick="clearHistory()">Clear</button>
-        </div>
-        <div id="historyList"></div>
-    </div>
-
-    <!-- CALCULATOR SECTION -->
-    <div class="calc-body" id="calculatorSection">
-
-        <div class="display">
-            <input type="text" id="prev" readonly>
-            <input type="text" id="curr" value="0" readonly>
-        </div>
-
-        <div class="buttons">
-            <button class="op" onclick="clearAll()">AC</button>
-            <button class="op" onclick="backspace()">⌫</button>
-            <button class="op" onclick="insert('%')">%</button>
-            <button class="op" onclick="insert('/')">÷</button>
-
-            <button onclick="insert('7')">7</button>
-            <button onclick="insert('8')">8</button>
-            <button onclick="insert('9')">9</button>
-            <button class="op" onclick="insert('*')">×</button>
-
-            <button onclick="insert('4')">4</button>
-            <button onclick="insert('5')">5</button>
-            <button onclick="insert('6')">6</button>
-            <button class="op" onclick="insert('-')">−</button>
-
-            <button onclick="insert('1')">1</button>
-            <button onclick="insert('2')">2</button>
-            <button onclick="insert('3')">3</button>
-            <button class="op" onclick="insert('+')">+</button>
-
-            <button class="zero" onclick="insert('0')">0</button>
-            <button onclick="insert('.')">.</button>
-            <button class="equal" onclick="calculate()">=</button>
-        </div>
-
-    </div>
-</div>
-
-<script src="calculator.js"></script>
-</body>
-</html>
-
